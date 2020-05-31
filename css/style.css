@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,900|Six+Caps");
+
+html,body{
+  height: 100%;
+}
+/* body css  */
+body{
+    margin: 0;
+    background: white;
+    /* font-family: 'Work Sans', sans-serif;
+    font-weight: 800; */
+    font-family: sans-serif;
+    
+    
+}
+
+  
+.navbar{
+     background-color: #003057; 
+     color: white;
+ }
+
+
+.navbarLogo{
+     max-width: 200px;
+ }
+
+
+.tab{
+    display: block;
+    margin: 20px 0;  
+/* Hide all tabs by default: */
+    display: none;
+    overflow: auto;
+}
+
+
+.head{
+    background-color: #D6D5DA ;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    /* color: #003057; */
+    border: 1px solid #003057;
+}
+
+
+.head h2{
+    color:#003057;
+    margin-top: 7px;
+    font-size: 3.5vw;
+}
+
+.row{
+    margin:10px 0px;
+    border: 1px solid #003057;
+    /* font-style: oblique; */
+    /* font-size: 2vw; */
+}
+
+.col{
+    padding: 10px;
+}
+
+p{
+    margin:10px 0;
+    color: #003057;
+}
+
+.required:after {
+    content:"*";
+    color: red;
+  }
+
+.custom-control:nth-child(even) {background-color: #f2f2f2;}
+.custom-control{
+    font-style: oblique;
+}
+
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  textarea{
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  /* Mark Text Area input boxes that gets an error on validation: */
+  textarea.invalid {
+    background-color: #ffdddd;
+  }
+
+
+button {
+    background-color: #003057;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+  }
+  
+
+button:hover {
+    opacity: 0.8;
+  }
+
+.popover-header{
+  color: white;
+  background-color: #003057;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+.popover-body{
+  font-style: oblique;
+}
+
+#prevBtn {
+    background-color: #D6D5DA;
+    color: #003057;
+  }
+ 
+  
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #D6D5DA;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+ 
+  
+  .step.active {
+    opacity: 1;
+  }
+
+
+/* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #003057;
+  }
+
+
+/* Sweet Alert using Swal css */
+.swal-title{
+  color: #003057;
+  font-family: sans-serif;
+  
+
+}
+.swal-button {
+  border-radius: 0px !important;
+  background-color: #003057;
+}
+.swal-text{
+  font-style: oblique;
+
+}
+.swal-button:not([disabled]):hover{
+  background-color: #003057;
+  opacity: 0.8;
+}
+
+ .footer{
+    background-color: #003057; 
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+ }
+
+
+ body.modal-open .container{
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+textarea {
+    resize: none;
+}
+
+#count_message {
+  background-color: smoke;
+  margin-top: -20px;
+  margin-right: 5px;
+}
