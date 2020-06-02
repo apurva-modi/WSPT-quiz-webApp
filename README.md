@@ -1,5 +1,6 @@
-# WSPT-quiz-webApp
-This repo demonstrate a full-stack quiz app, with the student and the Admin view.
+# Quiz Web Application.
+This project demonstrate a full-stack quiz app, with the student and the Admin view.
+The quiz is a multi page view and 
 
 ### DB connection 
 -  connection.php
@@ -23,7 +24,7 @@ This repo demonstrate a full-stack quiz app, with the student and the Admin view
 ## How does the quiz web app looks 
 #### Index.html
 ![alt text](assests/user1.png "userview1screenshot")
-#### Modal pop up befoere starting the quiz.
+#### Modal pop up before starting the quiz.
 ![alt text](assests/user2.png "userview2screenshot")
 #### If input box left blank then a student can't submit.
 ![alt text](assests/user3.png "userview3screenshot")
