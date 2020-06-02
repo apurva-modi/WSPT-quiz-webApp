@@ -1,6 +1,6 @@
-# Quiz Web Application.
+# A responsive Quiz Web Application.
 This project demonstrate a full-stack quiz app, with the student and the Admin view.
-The quiz is a multi page view and 
+> The quiz web app is resposive, multi page, have multiple validations, also have features to count number of words for larger textbox area and pull random questions for some of the sections (Random questions are always same for a student).
 
 ### DB connection 
 -  connection.php
